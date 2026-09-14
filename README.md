@@ -40,4 +40,4 @@ We do have to use JavaScript, which is a bit of an ordeal. But at least there's 
 
 **Why not a Firefox extension?**
 
-who the fuck uses Firefox?
+Who the fuck uses Firefox?
