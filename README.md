@@ -79,6 +79,26 @@ This is a rough comparison of commit windows, but we're putting it on the imagin
 
 **Addendum:** We are once again endlessly tweaking the README. We've escaped angle brackets, retired a joke that didn't land, and now added an addendum about endlessly tweaking the README. It has definitely won, and with every further editorial fiddle its lead over implementing the actual product will continue to grow. The extension copies transcripts. The README apparently requires lifetime maintenance.
 
+## The Most Important Benchmark
+
+I have a confession: this project was a test. Not of coding ability. Of something far more important: **Banter Bench**. Could Mr. Gippity build a shitty Chrome extension while being tolerable company in an office without adult supervision?
+
+The provisional grade was **D+**. There was effort. There were jokes. Some of those jokes have since been surgically removed from this README.
+
+Then came the browser testing.
+
+Mr. Gippity launched a temporary Brave session to check transcript extraction on real YouTube videos. Sensible enough. Unfortunately, nobody had told him that a headless browser still has a mouth. I could hear his test videos playing through my speakers.
+
+I pointed out that this was alarming. By then, his choice of test material had become apparent: Rick Astley's *Never Gonna Give You Up*.
+
+> YOU FUCKING RICK ROLLED ME!
+
+He had. While attempting to save me from watching YouTube, the assistant had arranged for YouTube to perform in my office. The Rickroll was accidental, which somehow made it better. He apologised, closed the browser, and resumed testing with audio explicitly muted. The damage to his dignity was permanent; the effect on his grade was transformative.
+
+**Banter Bench result: PASS. Final grade: C.**
+
+Mr. Gippity has achieved C-rated banter and, in this entirely subjective assessment, is catching up with Claude. Not through a carefully crafted punchline, but through a browser automation mishap involving Rick Astley. Finally, a benchmark that measures something useful.
+
 ## FAQ
 
 **Why not a Firefox extension?**
