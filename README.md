@@ -8,9 +8,9 @@ We live in the era of slop. YouTube is filled with slop. Every video must someho
 
 You see a headline like:
 
-> PARLIAMENT ERUPTS as <insert your guy> DESTROYS the establishment and sends his opponents QUAKING IN FEAR
+> PARLIAMENT ERUPTS as &lt;insert your guy&gt; DESTROYS the establishment and sends his opponents QUAKING IN FEAR
 
-Twenty minutes later, you discover that <insert your guy> asked the housing minister an awkward question, nobody had an answer, and someone muttered something under their breath. Parliament remains stubbornly unerupted.
+Twenty minutes later, you discover that &lt;insert your guy&gt; asked the housing minister an awkward question, nobody had an answer, and someone muttered something under their breath. Parliament remains stubbornly unerupted.
 
 I do not have time for this.
 
