@@ -21,7 +21,7 @@ Here's the plan:
 1. Load the YouTube video.
 2. Press the button.
 3. The extension opens the video's transcript and copies it to the clipboard. Magic, with permissions.
-4. Paste the slop into another slop generation tool, such as ChatGPT (no offence (and sorry for the nested brackets (I do love a good bracket)))).
+4. Paste the slop into another slop generation tool, such as ChatGPT. (No offence, Mr. Gippity, I've just called you a slop factory (and sorry for the nested brackets (I do love a good bracket))).
 5. Turn twenty minutes of slop into twenty seconds of digestible slop.
 
 Now you have nineteen minutes and forty seconds spare. Spend them typing unnecessarily long, slightly witty instructions into Codex to update your project's README in some trivial and meaningless way.
