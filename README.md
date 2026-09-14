@@ -62,6 +62,21 @@ Keep it simple, check that the button actually works, and admit when it doesn't.
 
 We do have to use JavaScript, which is a bit of an ordeal. But at least there's no shitty Node server to babysit and no virtualenv to activate. The browser has picked the language for us, saving another twenty minutes of discussing the merits of various programming languages. Please spend those minutes enjoying literally anything else.
 
+## The only productivity metric that matters
+
+The brief included one crucial requirement: spend longer on the README and `AGENTS.md` than on programming the actual extension. According to our highly scientific Git-based stopwatch, we managed it.
+
+These are commit timestamps from 14 September 2026, in UK time (BST), not timestamps from the conversation or a measurement of active working time:
+
+| Work | Commit window | Elapsed time |
+| --- | --- | --- |
+| README / AGENTS setup, starting at repo creation | `c520f98` → `3ed98c5`, 01:27:41–01:42:28 | **14m 47s** |
+| Extension implementation and checks, starting at the last README tweak | `3ed98c5` → `86fd3ad`, 01:42:28–01:52:15 | **9m 47s** |
+
+Documentation wins by **exactly five minutes**. If we count only from the first documentation commit (`1ba36b5`, 01:32:38), that window is **9m 50s**: still three seconds longer, even without counting the writing before that commit. The implementation window also includes installation documentation and an accidental live Rickroll, because apparently those are engineering activities now.
+
+This is a rough comparison of commit windows, but we're putting it on the imaginary Jira dashboard anyway. Documenting the result has, of course, created yet more documentation. Our lead can only grow.
+
 ## FAQ
 
 **Why not a Firefox extension?**
