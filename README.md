@@ -79,6 +79,8 @@ This is a rough comparison of commit windows, but we're putting it on the imagin
 
 **Addendum:** We are once again endlessly tweaking the README. We've escaped angle brackets, retired a joke that didn't land, and now added an addendum about endlessly tweaking the README. It has definitely won, and with every further editorial fiddle its lead over implementing the actual product will continue to grow. The extension copies transcripts. The README apparently requires lifetime maintenance.
 
+**The final bill:** This extension was one-shotted with **GPT-6 Astra**, using **48% of a five-hour usage chunk**, as reported by the human watching the meter. Not bad, considering we spent more time tweaking this README and making stupid jokes than actually building the thing. Apparently the expensive part of software development is deciding whether a bracket joke lands.
+
 ## The Most Important Benchmark
 
 I have a confession: this project was a test. Not of coding ability. Of something far more important: **Banter Bench**. Could Mr. Gippity build a shitty Chrome extension while being tolerable company in an office without adult supervision?
