@@ -44,6 +44,23 @@ The extension copies transcript text without timestamps, in the language current
 
 After pulling an update, click **Reload** on the extension's card in `brave://extensions`.
 
+## Cut a release
+
+Borrowing the approach from [agent-explorer](https://github.com/stevelittlefish/agent-explorer), a small Bash script pushes the version tag and GitHub Actions does the rest:
+
+```bash
+scripts/release.sh          # Show the manifest version and release command
+scripts/release.sh v1.0.0   # Create and push the release tag (1.0.0 also works)
+```
+
+Run it from a clean `main` checkout. For subsequent releases, update `version` in `manifest.json` and commit it first. The tag must match that version. The script needs Bash, Git, and `jq`; it pushes `main` and the tag together and refuses duplicate tags.
+
+Pushing a matching `vX.Y.Z` tag yourself also triggers the workflow. GitHub runs the checks, packages a ZIP with the extension files, README, and licence, and publishes a release with that ZIP and its SHA-256 checksum. Download it, unzip it, and use **Load unpacked** as above. No Web Store publishing is involved.
+
+To make the same ZIP locally without publishing, run `scripts/package.sh`. It packages **committed files from HEAD** into `dist/`, so commit edits you want included first. You can also run the **Release** workflow manually on `main` to test packaging and download the Actions artifact without creating a release.
+
+No extra GitHub secret is needed: the workflow uses the repository's built-in token. The existing JavaScript checks run with Node on the GitHub runner; neither release script requires Node or Python. Three points, automatically delivered.
+
 ## What's it allowed to do?
 
 It uses `activeTab` and `scripting` to open and read the transcript on the video you invoke it on, plus `clipboardWrite` to copy the result. Those are [Chrome's extension permissions](https://developer.chrome.com/docs/extensions/reference/permissions-list), also used by Brave. No background service, analytics, storage, or automatic sending to an LLM. You choose where to paste the text.
