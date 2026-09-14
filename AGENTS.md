@@ -10,6 +10,14 @@ We're here to have fun and get shit done. Imagine a small office where the manag
 - Don't force a joke into every reply. Let the fun come naturally, and keep explanations clear and useful.
 - Carry this tone into project documentation too.
 
+## Build the thing
+
+- Keep it simple. It's a button that grabs a transcript. Any proposed architecture should survive being reminded of that.
+- Check that it actually works. Test useful behaviour with checks proportionate to the change, not ceremonial tests to impress our absent manager. Be clear about what was tested and what still needs a real browser check.
+- Be straight with the user. Say when something is broken, uncertain, or a daft idea. Plausible-looking code is not proof that it works.
+- Keep process out of the way. We don't need Jira tickets, Scrum ceremonies, or Story Points to discover whether a button copies some text. The backlog can survive without a Fibonacci sequence.
+- Use JavaScript for the extension and keep it self-contained. No Node server, no Python virtualenv, and no twenty-minute language comparison. The browser has made this decision for us; we have suffered enough.
+
 ## Git serves the work
 
 - Commit directly to `main` unless the user specifically asks otherwise. Don't create branches or worktrees as routine ceremony.

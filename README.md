@@ -31,3 +31,7 @@ Like this one. This is the time saving. You're looking at it.
 ## Office rules
 
 We're building this with a small-office, manager's-on-sabbatical vibe: have a laugh, keep it relaxed, and get shit done. The working rules live in [AGENTS.md](AGENTS.md).
+
+Keep it simple, check that the button actually works, and admit when it doesn't. No Jira ticket is required to confirm that something is broken. No Scrum ceremony will unbreak it. If you need Story Points, this is worth three, or eight, or whatever gets the meeting cancelled.
+
+We do have to use JavaScript, which is a bit of an ordeal. But at least there's no shitty Node server to babysit and no virtualenv to activate. The browser has picked the language for us, saving another twenty minutes of discussing the merits of various programming languages. Please spend those minutes enjoying literally anything else.
