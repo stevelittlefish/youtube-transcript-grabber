@@ -77,6 +77,8 @@ Documentation wins by **exactly five minutes**. If we count only from the first 
 
 This is a rough comparison of commit windows, but we're putting it on the imaginary Jira dashboard anyway. Documenting the result has, of course, created yet more documentation. Our lead can only grow.
 
+**Addendum:** We are once again endlessly tweaking the README. We've escaped angle brackets, retired a joke that didn't land, and now added an addendum about endlessly tweaking the README. It has definitely won, and with every further editorial fiddle its lead over implementing the actual product will continue to grow. The extension copies transcripts. The README apparently requires lifetime maintenance.
+
 ## FAQ
 
 **Why not a Firefox extension?**
