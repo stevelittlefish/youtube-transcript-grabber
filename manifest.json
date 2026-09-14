@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Transcript Grabber",
+  "version": "1.0.0",
+  "description": "Get the slop into your clipboard. Grab a YouTube transcript with one click.",
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "action": {
+    "default_title": "Grab this video's transcript",
+    "default_popup": "popup.html"
+  }
+}

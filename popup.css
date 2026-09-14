@@ -1,0 +1,9 @@
+:root { color-scheme: dark; font: 15px/1.5 system-ui, sans-serif; }
+body { width: 330px; margin: 0; padding: 22px; background: #17191f; color: #f5f5f7; }
+h1 { margin: 0 0 12px; font-size: 25px; }
+p { margin: 0 0 16px; }
+.hint { margin: 16px 0 0; color: #aaaebd; font-size: 12px; }
+button { width: 100%; padding: 10px; border: 0; border-radius: 7px; background: #b9f279; color: #17220c; font: inherit; font-weight: 650; cursor: pointer; }
+button:focus-visible, textarea:focus-visible { outline: 2px solid white; outline-offset: 3px; }
+textarea { box-sizing: border-box; width: 100%; height: 180px; margin-bottom: 12px; padding: 10px; background: #242730; color: inherit; border: 1px solid #626878; border-radius: 7px; resize: vertical; font: inherit; }
+[hidden] { display: none; }

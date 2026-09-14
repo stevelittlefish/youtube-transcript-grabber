@@ -16,7 +16,7 @@ I do not have time for this.
 
 ## ENTER THE EXTENSION!
 
-Here's the plan:
+Here's the flow:
 
 1. Load the YouTube video.
 2. Press the button.
@@ -27,6 +27,32 @@ Here's the plan:
 Now you have nineteen minutes and forty seconds spare. Spend them typing unnecessarily long, slightly witty instructions into Codex to update your project's README in some trivial and meaningless way.
 
 Like this one. This is the time saving. You're looking at it.
+
+## Install it
+
+No build step. No dependencies. No summoning npm from the cellar.
+
+1. Download this repository and unzip it, or clone it.
+2. Open `brave://extensions` (or `chrome://extensions` if that's your thing).
+3. Turn on **Developer mode**.
+4. Click **Load unpacked** and select the folder containing `manifest.json`.
+5. Pin **YouTube Transcript Grabber** using the browser's extensions menu.
+
+Open a normal YouTube video page and click the extension's toolbar button. Keep the popup open while it grabs the transcript; it will tell you when the text is copied. Paste wherever you like. If automatic copying fails, the popup offers a copy button and selectable text.
+
+The extension copies transcript text without timestamps, in the language currently selected in YouTube's transcript panel. It doesn't summarise anything itself. Videos without transcripts won't magically acquire one, and Shorts and embedded players aren't supported. If YouTube changes its layout, try opening **Show transcript** yourself and clicking the extension again.
+
+After pulling an update, click **Reload** on the extension's card in `brave://extensions`.
+
+## What's it allowed to do?
+
+It uses `activeTab` and `scripting` to open and read the transcript on the video you invoke it on, plus `clipboardWrite` to copy the result. Those are [Chrome's extension permissions](https://developer.chrome.com/docs/extensions/reference/permissions-list), also used by Brave. No background service, analytics, storage, or automatic sending to an LLM. You choose where to paste the text.
+
+## Checks, without a Scrum ceremony
+
+Optional developer checks: `node tests/transcript.test.cjs`. These cover extraction, missing transcripts, navigation, popup errors, and clipboard fallback using fixtures. Node is only the test runner; the extension itself needs nothing installed beyond your browser.
+
+For a browser check, try a video with captions, an already-open transcript, a video without captions, and a non-YouTube tab. Confirm that pasting produces the complete transcript without timestamps. Fixture checks can't promise that YouTube hasn't moved the furniture again.
 
 ## Office rules
 
